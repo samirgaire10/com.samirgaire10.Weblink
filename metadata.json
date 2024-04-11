@@ -1,0 +1,20 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "samirgaire10"
+            }
+        ],
+        "Category": "Online Services",
+        "Description": "Add a webpage on your desktop.",
+        "Icon": "applications-internet",
+        "Id": "com.samirgaire10.Weblink-plasma6",
+        "License": "GPL-2.0+",
+        "Name": "Weblink",
+        "Website": "https://github.com/samirgaire10/com.samirgaire10.Weblink-plasma6.git" ,
+        "github": "https://github.com/samirgaire10/"
+
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
