@@ -7,7 +7,7 @@
 
   <group name="General">
     <entry name="url" type="String">
-        <default>https://samirgaire10.github.io/Web-Linker/</default>
+        <default>https://samirgaire10.github.io/com.samirgaire10.Weblink-plasma6/</default>
     </entry>
     <entry name="useMinViewWidth" type="Bool">
       <default>true</default>
