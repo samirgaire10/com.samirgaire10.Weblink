@@ -74,6 +74,25 @@ PlasmoidItem {
 
                 readonly property bool useMinViewWidth : plasmoid.configuration.useMinViewWidth
 
+
+
+
+
+  WebEngineProfile {
+            id: weblinkProfile
+            httpUserAgent: getUserAgent()
+            storageName: "weblink"
+            offTheRecord: false
+            httpCacheType: WebEngineProfile.DiskHttpCache
+            persistentCookiesPolicy: WebEngineProfile.ForcePersistentCookies
+        }
+
+        profile: weblinkProfile
+
+
+
+
+
                 Connections {
                     target: plasmoid.configuration
 
